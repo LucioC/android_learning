@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LinearLayoutSample</string>
+    <string name="username">put username here</string>
+    <string name="action_settings">Settings</string>
+    <string name="password">put password here</string>
+    <string name="login">Login</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="welcome_user">Welcome %1$s</string>
+
+</resources>
