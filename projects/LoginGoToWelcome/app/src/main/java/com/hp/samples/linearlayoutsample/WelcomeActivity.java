@@ -32,6 +32,12 @@ public class WelcomeActivity extends Activity {
     }
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.open_scale, R.anim.close_translate);
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
